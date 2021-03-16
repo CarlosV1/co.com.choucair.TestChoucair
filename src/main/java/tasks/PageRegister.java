@@ -60,7 +60,7 @@ public class PageRegister implements Task {
         actor.attemptsTo(Click.on(PageContinue.MONTH));
         actor.attemptsTo(Click.on(PageContinue.DAY));
         actor.attemptsTo(Click.on(PageContinue.PASSWORD), (Performable) Enter.theValue(strPassword));
-        actor.attemptsTo(Click.on(PageContinue.CPASSWORD), (Performable) Enter.theValue(strCPaswword);
+        actor.attemptsTo(Click.on(PageContinue.CPASSWORD), (Performable) Enter.theValue(strCPaswword));
         actor.attemptsTo(Click.on(PageContinue.SUBMIT));
     }
 }
